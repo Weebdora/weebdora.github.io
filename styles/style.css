@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+div {
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: lime;
+    text-shadow: blueviolet;
+}
+li {
+    color: red;
+}
