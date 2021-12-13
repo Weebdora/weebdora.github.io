@@ -1,41 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <title>Weebdora's Learning Reference</title>
-    <h1>Hi</h1>
+    <meta charset="utf-8">
+    <meta name="author" content="Weebdora">
+    <meta name="description" content="Weedora's Playground for learning and practicing">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js" defer></script>
   </head>
   <body>
     <h1>My online reference</h1>
-    <p>Here I will apply what I'm learning and also keep it saved as well as make a reference and notes for myself.</p>
-    <p> Let's get started.</p>
-    <!-- Idk whether I should use lists or paragraphs but I'm going to go with paragraphs for now -->
-    <h2>Basic html concepts</h2>
-    <h3>Block element</h3>
-    <p>Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line</p>
-    <h3>Inline element</h3>
-    <p>Inline elements are contained within block-level elements and will not cause a new line to appear in the document</p>
-    <h3>Attributes</h3>
-    <p>Attributes contain extra information about the element that won't appear in the content. To declare an attribute, insert it's name followed by an equal name, and it's value inside quotation marks.</p>
-    <h3>Empty Elements</h3>
-    <p>Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag, which is typically used to insert/embed something in the document like img.</p>
-    <h3>Nested Elements</h3>
-    <p>Elements can be placed within other elements. This is called nesting. The tags have to open and close in a way that they are inside or outside one another</p>
-    <h3>Boolean attributes</h3>
-    <p>Attributes written without values or only one value which is generally the same as the attribute name</p>
-    <h3>Whitespace</h3>
-    <p>No matter how much space or line breaks you insert in html, it only considers it equal to a single space. This helps in improving the readability of the code. It is a common practice to have each nested element indented by two spaces more than the one it is sitting inside.</p>
-    <h3>Special characters</h3>
-    <p>Because browsers usually interpret special characters as code, there's a special codes to write them in html. These special characters are greater than(gt), less than(lt), single quotes(apos), double quotes(quot), and ampersand. To write them, you have to put their abbreviation, provided in small brackets next to them, between an ampersand sign and a semicolon. So they will appear like this &lt; &gt; &apos; &quot; &amp;</p>
-    <h3>Comments</h3>
-    <p>Comments aren't considered as code and are ignored by browsers. They are usually made to define what the code does or deliever a message to other developers. Syntax: &lt;!--Anything between is a comment and will not be shown to the client/user.--&gt;</p>
     <div>
-      <h2>Basic html elements info</h2
+      <p>Here I will apply what I'm learning and also keep it saved as well as make a reference and notes for myself.</p>
+      <p> Let's get started.</p>
+      <!-- Idk whether I should use lists or paragraphs but I'm going to go with paragraphs for now -->
+      <h2>Basic html concepts</h2>
+      <h3>Block element</h3>
+      <p>Block-level elements form a visible block on a page. A block-level element appears on a new line following the content that precedes it. Any content that follows a block-level element also appears on a new line</p>
+      <h3>Inline element</h3>
+      <p>Inline elements are contained within block-level elements and will not cause a new line to appear in the document</p>
+      <h3>Attributes</h3>
+      <p>Attributes contain extra information about the element that won't appear in the content. To declare an attribute, insert it's name followed by an equal name, and it's value inside quotation marks.</p>
+      <h3>Empty Elements</h3>
+      <p>Not all elements follow the pattern of an opening tag, content, and a closing tag. Some elements consist of a single tag, which is typically used to insert/embed something in the document like img.</p>
+      <h3>Nested Elements</h3>
+      <p>Elements can be placed within other elements. This is called nesting. The tags have to open and close in a way that they are inside or outside one another</p>
+      <h3>Boolean attributes</h3>
+      <p>Attributes written without values or only one value which is generally the same as the attribute name</p>
+      <h3>Whitespace</h3>
+      <p>No matter how much space or line breaks you insert in html, it only considers it equal to a single space. This helps in improving the readability of the code. It is a common practice to have each nested element indented by two spaces more than the one it is sitting inside.</p>
+      <h3>Special characters</h3>
+      <p>Because browsers usually interpret special characters as code, there's a special codes to write them in html. These special characters are greater than(gt), less than(lt), single quotes(apos), double quotes(quot), and ampersand. To write them, you have to put their abbreviation, provided in small brackets next to them, between an ampersand sign and a semicolon. So they will appear like this &lt; &gt; &apos; &quot; &amp;</p>
+      <h3>Comments</h3>
+      <p>Comments aren't considered as code and are ignored by browsers. They are usually made to define what the code does or deliever a message to other developers. Syntax: &lt;!--Anything between is a comment and will not be shown to the client/user.--&gt;</p>
+    </div>
+    <div>
+      <h2>Necessary html elements info</h2
       <p>Doctype declaration. The first line of code required in every HTML document.The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. This ensures that the web page is parsed the same way by different web browsers.</p>
-      <p>Html element. It represents the root level element and wraps all the content on the page. All other elements must be descendants of this element</p>
+      <p>Html element. It represents the root level element and wraps all the content on the page. All other elements must be descendants of this element. It is a common practice to add &apos;lang&apos; attribute to set the language of your page, for example, lang=&quot;en-US&quot;. It will be in your best interests to do this as it will help the search engine in indexing your HTML document. </p>
       <p>Head element. This includes keywords and a page description that would appear in search results, CSS to style content, JavaScript to add interactivity, character set declarations, and other metadata. The content in the head is not visible to the users.</p>
       <p>Body element. It contains all the content that displays on the page, including text, images, videos, games, playable audio tracks, or whatever else.</p>
-      <p>Meta element. This contains metadata which describes what type of data is displayed on the web page</p>
+      <p>Meta element. This contains metadata which describes what type of data is displayed on the web page.</p>
       <p>Title element.This sets the title of the page and is also used to describe the page when it is bookmarked</p>
+    </div>
+    <div>
+      <h2>What common attributes, elements and other common things are included inside discussed elements</h2>
+      <h3>Meta</h3>
+      <p>charset=&quot;utf-8&quot;. Specifies document's character encoding. The set of characters the document is permitted to use. utf-8 is a universal character set that includes pretty much any character from any human language. This means that your web page will be able to handle displaying any language</p>
+      <p>name, content. These attributes are included in many meta elements. Name specifies the type of meta element, what type of information it contains, and content specifies the actual meta content.</p>
+      <p>Links can be further added to add icons, css, js and much more</p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>
+      <p></p>
+      <h3></h3>
+      <p></p>
     </div>
   </body>
 </html>
