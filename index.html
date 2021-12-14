@@ -41,7 +41,7 @@
       <h3>Boolean attributes</h3>
       <p>Attributes written without values or only one value which is generally the same as the attribute name</p>
       <h3>Whitespace</h3>
-      <p>No matter how much space or line breaks you insert in html, it only considers it equal to a single space. This helps in improving the readability of the code. It is a common practice to have each nested element indented by two spaces more than the one it is sitting inside.</p>
+      <p>No matter how much space or line breaks you insert in html, it only considers it equal to a single space. This helps in improving the readability of the code. It is a common practice to have each nested element indented by two spaces more than the one it is sitting inside. In case, if you do want the whitespace to appear on the page, you can use the preformatted text element <code>&lt;pre&gt;&lt;/pre&gt;</code> for retaining whitespace</p>
       <h3>Special characters</h3>
       <p>Because browsers usually interpret special characters as code, there's a special codes to write them in html. These special characters are greater than(gt), less than(lt), single quotes(apos), double quotes(quot), and ampersand. To write them, you have to put their abbreviation, provided in round brackets next to them, between an ampersand sign and a semicolon. So they will appear like this &lt; &gt; &apos; &quot; &amp;</p>
       <h3>Comments</h3>
@@ -90,5 +90,10 @@
       <p> My discord: Discord#6729</p>
     </address>
     <p><b>Don't contact me just to have an idle chatter. Only do it if you got something important to discuss.</b></p>
+    <pre><code>
+    const body= document.querySelector(body);
+    body.dblclick = function() {
+      alert('Owww, stop poking me!');
+      }</code></pre>
   </body>
 </html>
