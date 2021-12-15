@@ -1,2 +1,196 @@
-<h1>Welcome to index2</h1>
-<p>This exists to help me create a navigation menu in index.html</p>
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Handwritten test Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 10px;
+      background-color: #a9a9a9;
+    }
+
+    body {
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #c8ff00;
+    }
+
+    p,
+    input,
+    li {
+      color: #020202;
+    }
+
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      color: rgb(13, 238, 219);
+      text-shadow: 2px 2px 10px rgb(162, 0, 255);
+    }
+
+    h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+    }
+
+    p,
+    li {
+      font-size: 1.6rem;
+      line-height: 1.5;
+    }
+
+    nav,
+    article,
+    aside,
+    footer {
+      background-color: rgb(255, 0, 0);
+      padding: 1%;
+    }
+
+    nav {
+      height: 50px;
+      background-color: #00fc0d;
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      padding: 0;
+      list-style-type: none;
+      flex: 2;
+      display: flex;
+    }
+
+    nav li {
+      display: inline;
+      text-align: center;
+      flex: 1;
+    }
+
+    nav a {
+      display: inline-block;
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: rgb(21, 5, 253);
+    }
+
+    nav form {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      padding: 0 2em;
+    }
+
+    input {
+      font-size: 1.6rem;
+      height: 32px;
+    }
+
+    input[type="search"] {
+      flex: 3;
+    }
+
+    input[type="submit"] {
+      flex: 1;
+      margin-left: 1rem;
+      background: #333;
+      border: 0;
+      color: white;
+    }
+
+
+    main {
+      display: flex;
+    }
+
+    article {
+      flex: 4;
+    }
+
+    aside {
+      flex: 1;
+      margin-left: 10px;
+      background-color: #ff80ff;
+    }
+
+    aside li {
+      padding-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Header</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index1.html">Home</a></li>
+      <li><a href="index1.html">Menu</a></li>
+      <li><a href="index1.html">Blog</a></li>
+      <li><a href="index1.html">Contact us</a></li>
+    </ul>
+    <form>
+      <input type="search" placeholder="Search our page">
+      <input type="submit" value="Go!">
+    </form>
+  </nav>
+  <main>
+    <article>
+      <h2>Article</h2>
+      <p>Hey this is a paragraph. Lets write some paragraphs. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Maxime repudiandae quasi ipsam! Sint distinctio saepe, neque perspiciatis repellat beatae excepturi sed
+        reiciendis aliquam eligendi in soluta nemo, dolore, eveniet officiis! </p>
+      <h3>Subsection</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deleniti dolores voluptatum amet eligendi
+        quibusdam quae illo officia, non voluptatibus et nobis? Et magnam consectetur doloremque officia perspiciatis
+        provident similique?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim, excepturi mollitia, molestias quos perferendis
+        quod accusantium fuga consequatur placeat, in nam voluptas amet. Non iure nisi, assumenda velit at id.</p>
+      <h3>More Subsection</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio, laborum quas suscipit
+        asperiores debitis recusandae laudantium voluptatem praesentium in dolorem mollitia quo quos. Nostrum suscipit
+        facere ipsa necessitatibus. Optio.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quod assumenda temporibus consequatur tenetur
+        voluptatum dolorem beatae consectetur, provident, ipsum, ullam quisquam. Optio odit quod sunt incidunt facere
+        doloremque ex.</p>
+    </article>
+    <aside>
+      <h2>Related</h2>
+      <ul>
+        <li><a href="index1.html">Related link 1</a></li>
+        <li><a href="index1.html">Related link 2</a></li>
+        <li><a href="index1.html">Related link 3</a></li>
+        <li><a href="index1.html">Related link 4</a></li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <h2>©Copyright 2022 by Weebdora. All rights reserved.</h2>
+  </footer>
+</body>
+
+</html>
